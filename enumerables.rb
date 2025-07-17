@@ -46,8 +46,7 @@ def print_spiciest_foods(spicy_foods)
     end
   end
 end
-# given an array of spicy foods, return an integer representing 
-# the average heat level of all the spicy foods in the array
+
 def average_heat_level(spicy_foods)
    average_heat = spicy_foods.sum do |food| food[:heat_level]
    end
